@@ -11,6 +11,8 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;transition:background 700ms,color 700ms;min-height:100svh}body[data-step="1"]{--bg:#f0f0e9;--ink:#40483c;--accent:#5d6a4d;--soft:#dce0cf}body[data-step="2"]{--bg:#f7eee2;--ink:#574535;--accent:#806041;--soft:#e9d9c0}body[data-step="3"]{--bg:#f9ece3;--ink:#623f33;--accent:#9c6149;--soft:#efd0bb}body[data-step="4"]{--bg:#fbebea;--ink:#6d3c44;--accent:#a75164;--soft:#f1cdd1;--muted:#80616a}.ambient{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 13% 38%,#ffffff80,transparent 45%),radial-gradient(ellipse at 92% 70%,#ffffff60,transparent 40%);z-index:-1}header{max-width:1060px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:28px 32px}.brand{font-family:'Playfair Display',Georgia,serif;font-size:26px;font-style:italic}.brand span{font-family:sans-serif;font-size:18px;margin:0 7px}.dedication{font-size:10px;letter-spacing:2.6px;font-weight:600}.paw{font-size:21px;transform:rotate(15deg);opacity:.65}main{max-width:860px;margin:48px auto 0;padding:0 32px}.progress{display:flex;align-items:center;gap:18px;margin-bottom:42px;font-size:10px;letter-spacing:2px}.progress-track{display:flex;gap:7px}.progress-track span{height:3px;width:26px;background:var(--ink);opacity:.13;border-radius:3px}.progress-track .done{opacity:.75}#scene{display:grid;grid-template-columns:1.3fr 1fr;gap:60px;align-items:center}.eyebrow{font-size:10px;letter-spacing:2.3px;font-weight:700;margin:0 0 20px}h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(36px,4.7vw,53px);line-height:1.16;letter-spacing:-1.4px;font-weight:500;margin:0 0 22px;text-wrap:balance;outline:none}.clue,.extra{font-size:18px;line-height:1.75;margin:0;max-width:430px}.extra{margin-top:20px;font-weight:600}.polaroid{position:relative;background:#fffdf9;padding:12px 12px 0;margin:0;transform:rotate(4deg);box-shadow:0 8px 30px #3b333315,0 1px 3px #3b333310}.polaroid:before{content:'';position:absolute;left:32%;top:-13px;width:95px;height:29px;background:#d9c6a88c;transform:rotate(-7deg);z-index:2}.photo-wrap{position:relative;height:290px;overflow:hidden;background:var(--soft)}.photo-wrap img{width:100%;height:100%;object-fit:cover;object-position:50% 43%}.badge{position:absolute;bottom:10px;left:10px;background:#fffdf5eb;padding:7px 11px;font-size:9px;letter-spacing:1px;text-transform:uppercase;border-radius:3px;color:#4f463c}figcaption{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:67px;padding:8px 5px;color:#655746}.handwritten{font-family:'Caveat',cursive;font-size:23px;line-height:1.1}figcaption>span:last-child{font-size:28px}.actions{margin-top:36px;display:flex;align-items:center;gap:22px}.primary{background:var(--accent);color:#fff;border:0;border-radius:100px;min-height:58px;width:225px;padding:0 26px;font:600 16px 'DM Sans',sans-serif;display:flex;align-items:center;justify-content:space-between;cursor:pointer;box-shadow:0 5px 10px #00000009;transition:transform .15s,background .5s}.primary:hover{transform:translateY(-2px)}.primary:active{transform:scale(.97)}.primary span{font-size:24px;font-weight:400}.back{background:none;border:0;color:var(--ink);font:500 12px 'DM Sans',sans-serif;cursor:pointer;min-height:44px;padding:8px 0}.back:hover{text-decoration:underline}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.aside{font-size:11px;color:var(--muted);line-height:1.6;margin:18px 0 0}footer{max-width:860px;margin:60px auto 0;padding:24px 32px 30px;font-size:10px;letter-spacing:.4px;color:var(--muted);display:flex;justify-content:space-between;border-top:1px solid #64778220}footer span{font-size:17px}[hidden]{display:none!important}.enter{animation:enter .5s ease both}@keyframes enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}#music{margin-top:35px;max-width:440px}.music-label{font-size:10px;font-weight:700;letter-spacing:2px}#player iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px}.music-help{font-size:11px;line-height:1.7;color:var(--muted)}a{color:inherit}.heart{position:fixed;bottom:-30px;color:#b66d80;font-size:22px;pointer-events:none;animation:float 4s ease-in forwards;z-index:5}@keyframes float{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}
 @media(max-width:640px){header{padding:20px 23px}.brand{font-size:23px}.dedication{font-size:9px;letter-spacing:1.7px}main{margin:25px auto 0;padding:0 26px;max-width:440px}.progress{margin-bottom:30px;justify-content:space-between}.progress-track span{width:32px}#scene{grid-template-columns:1fr;gap:30px}.eyebrow{margin-bottom:15px;font-size:9px}h1{font-size:38px;margin-bottom:15px}.clue,.extra{font-size:17px;line-height:1.65}.polaroid{width:205px;justify-self:center;transform:rotate(4deg);padding:9px 9px 0}.photo-wrap{height:177px}.photo-wrap img{object-position:50% 40%}figcaption{min-height:51px;padding:7px 3px}.handwritten{font-size:19px}.badge{font-size:8px;padding:5px 7px;left:6px;bottom:6px}.polaroid:before{width:75px;height:24px;top:-11px}.actions{margin-top:29px;flex-wrap:wrap;gap:5px;justify-content:center}.primary{width:100%;min-height:56px}.back{padding:10px 14px}.aside{text-align:center;margin-top:10px;font-size:10px}footer{margin:33px 26px 0;padding:20px 0 24px;font-size:9px}body[data-step="4"] h1{font-size:35px}body[data-step="4"] .polaroid{margin-top:5px}#music{margin-top:28px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.heart{display:none}}
+
+body[data-step="-1"] .primary{width:100%;max-width:430px;justify-content:center;line-height:1.5;padding:16px 22px;text-align:center}body[data-step="-1"] #scene{margin-top:50px}
 </style>
   
 </head>
@@ -38,10 +40,13 @@ const steps = [
   { eyebrow: 'SISTE SPOR · FØLG SNUТEN'.replace('Т','T'), title: 'En teddy varmeflaske får duge for han.', text: 'Men brrr, det hadde vært godt med noe ekstra varme. Kanskje det skjuler seg en skjult skatt under trappa?', image: 'vWuPwxBR', badge: 'Skattejeger på oppdrag', caption: 'Under trappa? Jeg går først!', aside: 'Nå er du nær. Aicko klarer nesten ikke holde det hemmelig.' },
   { eyebrow: 'TIL MILANA · FRA PETTER', title: 'Tenkte på deg når æ ikke er hos deg,', text: 'gjorde litt research og fant ut at dette kanskje kan hjelpe mot plagene.', extra: 'Så er du varm selv når jeg ikke er her. Utrolig glad i deg Milana <3', image: 'JiqqX95g', badge: 'Oppdrag utført ♡', caption: 'Du fikk skatten. Jeg tok leken.', aside: 'En stor klem fra Petter. Og en våt nuss fra Aicko.' }
 ];
-let current = 0;
+const intro = { eyebrow: 'ET NYTT MYSTERIUM · DETEKTIV AICKO', title: 'En care-package har landet i leiligheten,', text: 'men den eksploderte og tingene i den har spredd seg overalt... Detektiv Aicko er på saken, med din hjelp så kan man finne alt!', image: 'MO3S_Nbe', badge: 'Detektiv Aicko · klar for oppdrag', caption: 'Jeg har slips. Stol på meg.', aside: 'Alle gode detektiver trenger en modig makker.' };
+let current = -1;
 const $ = id => document.getElementById(id);
 function render(focus = false) {
-  const s = steps[current];
+  const s = current === -1 ? intro : steps[current];
+  document.querySelector('.progress').hidden = current === -1;
+  $('next').textContent = current === -1 ? 'Jeg er flink og modig. Dette klarer jeg' : 'Jaha? →';
   document.body.dataset.step = current;
   $('eyebrow').textContent = s.eyebrow;
   $('headline').textContent = s.title;
@@ -57,7 +62,7 @@ function render(focus = false) {
   document.querySelectorAll('.progress-track span').forEach((el, i) => el.classList.toggle('done', i <= current));
   document.querySelector('.progress').setAttribute('aria-label', `Steg ${current + 1} av 5`);
   $('next').hidden = current === 4;
-  $('back').hidden = current === 0 || current === 4;
+  $('back').hidden = current <= 0 || current === 4;
   $('restart').hidden = current !== 4;
   $('music').hidden = current !== 4;
   if (current === 4) {
@@ -85,7 +90,7 @@ function celebrate() {
 }
 $('next').addEventListener('click',()=>{ if(current<4){current++;render(true);} });
 $('back').addEventListener('click',()=>{ if(current>0){current--;render(true);} });
-$('restart').addEventListener('click',()=>{current=0;render(true);});
+$('restart').addEventListener('click',()=>{current=-1;render(true);});
 render();
 </script></body>
 </html>
